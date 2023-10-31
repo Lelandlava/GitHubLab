@@ -4,5 +4,17 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    //code for player movement
+    public float speed = 10f;
+
+    private Vector3 moveVec; 
+
+    private void Move()
+    {
+        //code
+    }
+
+    public void Jump()
+    {
+        //code
+    }
 }
